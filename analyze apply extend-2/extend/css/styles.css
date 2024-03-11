@@ -81,8 +81,8 @@ main a {
 
 
 /* Green */
-#Green-hex {
-  background-color: #008000
+.Green-hex {
+  background-color: #008000;
 }
 #Green-RGB {
   background-color: #rgb(0,128,0)

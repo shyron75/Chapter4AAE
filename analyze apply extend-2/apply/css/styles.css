@@ -13,7 +13,7 @@ body, header, nav, main, footer, h1, div, img {
 
 /* style rule for body and image, */
 
-Body {
+body {
     background-color: #e3eaf8;
 }
 
@@ -22,82 +22,89 @@ img {
      display: block;
 }
 
+
 /* Style rule for header content */
 
-header {
-      width: 25%;
-      float: left;
-      text-align: center;
+header h1{
+
+      text-align:center;
       font-size: 3em;
       font-family: Georgia,Times,serif;
       padding: 3%;
-      color: #101a2d
+      color: #101a2d;
 
 }
 
 /* Style rules for navigation area, */
 
+/* nav , nav ul, nav li, nav li a{
+  background-color: #1d396d;
+  margin: 0;
+  text-align: center;
+} */
+
+
 nav {
-     margin: 0;
+     /* margin: 0; */
      background-color: #1d396d;
 }
 
 nav ul {
         list-style: none;
         margin: 0;
-        text-align: center
-
-
+        text-align: center;
 }
 
-nav li {
+nav li{
        display: inline-block;
        font-size: 1.5em;
-       font-family: Verdana,Arial,sans-serif
+       font-family: Verdana,Arial,sans-serif;
        font-weight: bold;
 }
 
-nav li {
+nav li a{
       display: block;
-      font-color: #e3eaf8;
+      color: #e3eaf8;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      text-decorations: remove;
+      padding-left: 2em;
+      padding-right: 2em;
+      text-decoration: none;
 }
 
 /* Style rule for main content */
 
-Main {
+main {
 
      padding: 2%;
-     font-family: Geneva,Arial,sans-serif;
-     overflow-value: auto;
+     font-family: Geneva, Arial, sans-serif;
+     overflow: auto;
 }
 
-Main p {
-
+main p {
      font-size: 1.25em;
 }
 
+main h3{
+  padding-top: 2%;
+  font-size: 2em;
 
+}
 
-id selector image {
+ #image {
 
-     width-value: 45%;
-     float-value: left;
+     width: 45%;
+     float: left;
      padding: 1%;
 }
 
-id selector image {
+ #group {
 
-     width-value: 45%;
-     float-value: right;
-
+     width: 45%;
+     float: right;
 }
 
-.external-link {
+.external {
         color: #1d396d;
         font-weight: bold;
         text-decoration: none;
@@ -107,17 +114,17 @@ id selector image {
 /* Style rules for footer content, */
 
 footer  {
-     foot-size: 0.85em;
+     font-size: 0.85em;
      text-align: center;
      background-color: #1d396d;
      padding-top: 1%;
      padding-bottom: 1%;
      padding-right: 0%;
      padding-left: 0%;
-
+    color: #e3eaf8;
 }
 
 footer a {
-      font-color: #e3eaf8;
+      color: #e3eaf8;
       text-decoration: none;
 }
