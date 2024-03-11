@@ -1,0 +1,123 @@
+/*
+Shyron Williams
+2/26/24
+styles.css,
+*/
+
+/* CSS RESET */
+body, header, nav, main, footer, h1, div, img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+}
+
+/* style rule for body and image, */
+
+Body {
+    background-color: #e3eaf8;
+}
+
+img {
+     max-width: 100%;
+     display: block;
+}
+
+/* Style rule for header content */
+
+header {
+      width: 25%;
+      float: left;
+      text-align: center;
+      font-size: 3em;
+      font-family: Georgia,Times,serif;
+      padding: 3%;
+      color: #101a2d
+
+}
+
+/* Style rules for navigation area, */
+
+nav {
+     margin: 0;
+     background-color: #1d396d;
+}
+
+nav ul {
+        list-style: none;
+        margin: 0;
+        text-align: center
+
+
+}
+
+nav li {
+       display: inline-block;
+       font-size: 1.5em;
+       font-family: Verdana,Arial,sans-serif
+       font-weight: bold;
+}
+
+nav li {
+      display: block;
+      font-color: #e3eaf8;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      text-decorations: remove;
+}
+
+/* Style rule for main content */
+
+Main {
+
+     padding: 2%;
+     font-family: Geneva,Arial,sans-serif;
+     overflow-value: auto;
+}
+
+Main p {
+
+     font-size: 1.25em;
+}
+
+
+
+id selector image {
+
+     width-value: 45%;
+     float-value: left;
+     padding: 1%;
+}
+
+id selector image {
+
+     width-value: 45%;
+     float-value: right;
+
+}
+
+.external-link {
+        color: #1d396d;
+        font-weight: bold;
+        text-decoration: none;
+        font-style: italic;
+}
+
+/* Style rules for footer content, */
+
+footer  {
+     foot-size: 0.85em;
+     text-align: center;
+     background-color: #1d396d;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     padding-right: 0%;
+     padding-left: 0%;
+
+}
+
+footer a {
+      font-color: #e3eaf8;
+      text-decoration: none;
+}
