@@ -1,35 +1,76 @@
+/* CSS RESET */
+body, header, nav, main, footer, h1, div, img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+}
+
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 0 1%;
-}footer {
-    text-align: center;
-    font-size: 0.85em;
-    color: #47476b;
-    padding: 1% 0;
-    border-top: 3px solid #47476b;
+}
+
+    /* style rule for body and image, */
+
 }body {
     padding 2%;
     background-color: #d1d1e0;
+
+    /* Style rule for main content */
+
 } main {
     padding: 2%;
-    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+    font-family: Geneva, Arial, sans-serif; }
+
+    main a {
+
+      underline:none;
+      font-weight:Bold;
+      font-style:italic;
+    }
+
+    main p {
+        font-size: 1.25em;
+    }
+    main h3 {
+        padding-top: 2%;
+        font-size: 2em;
+    }
+
 } header h1 {
     font-size: 3em;
     font-family: Georgia, Times, serif;
+    text-align:center;
     padding: 3%;
     color: #47476b;
+
+
+    /* Style rules for navigation area, */
+
 } nav {
     background-color: #47476b;
-} nav ul { margin: 0;} nav li {
+
+} nav ul {
+    margin: 0;
+    width: 20%; }
+
+  nav li {
     display: block;
     font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
 
-main p {
-    font-size: 1.25em;
-}
-main h3 {
-    padding-top: 2%;
-    font-size: 2em;
-}
+} nav li a { display: block;
+   color: #e3eaf8;
+    padding: 0.5em 2em;
+   display: inline-block; }
+
+/* Style rules for footer content, */
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    /* float: left; */
+    padding: 1% 0;
+    border-top: 3px solid #47476b;
